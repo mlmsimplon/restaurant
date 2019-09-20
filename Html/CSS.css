@@ -1,0 +1,153 @@
+body { 
+    background-color: radial-gradient(whitesmoke,white,whitesmoke);
+    padding: 10px 10px;
+    margin: 15;
+    opacity: 1;
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+}
+@media screen and (max-width: 800px)
+{
+    .section{
+        width: 100%;
+        padding: 0%;
+    }
+}
+
+#header {
+    background-image: url(https://cdn.pixabay.com/photo/2014/09/17/20/26/restaurant-449952_960_720.jpg);
+    font-size: 18pt;
+    font-family: 'Courgette', cursive;
+    text-shadow: 1px 2px 2px grey;
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+}
+
+nav ul {
+    background: linear-gradient(50deg, 
+     rgba(255, 255, 255, 0) 10%, 
+     rgba(255, 255, 255, 0.2) 25%, 
+     rgba(255, 255, 255, 0.2) 75%, 
+     rgba(255, 255, 255, 0) 100%);
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.1),
+     inset 0 0 1px rgba(255, 255, 255, 0.6);
+}
+
+nav ul li a {
+    padding: 8px;  
+    color:white;
+    font-size: 18px;
+    text-decoration: none;
+    display: block;
+       
+    }
+
+    #menu-deroulant {
+        padding: 50px;
+        min-width: 100px; 
+}
+
+   #menu-deroulant ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+    #menu-deroulant {
+            text-align: center;
+            font-family: 'Courgette', cursive;
+        }
+
+#menu-deroulant li {
+    display: inline-block;
+    list-style: none;
+}
+#menu-deroulant ul li {
+    display: inherit;
+}
+#menu-deroulant a {
+        text-decoration: none;
+        display: block;
+        color: grey;
+        font-weight: lighter;
+}
+#menu-deroulant ul {
+    position: absolute;
+    text-align: left;
+    left: -999em;
+    text-align: left;
+    z-index: 1000;
+}
+#menu-deroulant li:hover ul {
+    left: auto;
+}
+
+@keyframes fadeInOpacity {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#menu-semaine {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 1cm;
+    color: grey;
+    font-family: 'Courgette', cursive;
+    text-decoration: none;
+    font-weight: lighter;
+    padding-top: 20px;
+}
+
+.arrondie {
+    width: 500px;
+    height: 300px;
+    border-radius: 4px solid white;
+    border-radius: 8px;
+}
+
+
+#blocktext {
+    margin: auto;
+    padding-top: 1.5cm;
+    text-decoration: none;
+    text-align: center;
+    word-wrap: break-word;
+    font-family: 'Crimson Text', serif;
+    font-size: 16pt;
+    color:grey;
+}
+#blocktext ul li {
+    list-style: none;
+}
+#reseaux {
+background-image: url(https://cdn.pixabay.com/photo/2014/09/17/20/26/restaurant-449952_960_720.jpg);
+text-align: center;
+cursor: pointer;
+font-size: 16pt;
+font-weight: bold; 
+margin-top: 4cm;
+border:1px solid grey;
+padding-top:20px;
+border-radius: 5px;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+}
+
+#copyright {
+font-size: 11pt;
+   padding: 10px 10px;
+    margin-bottom: 5px;
+    margin-top: 2cm;
+    text-align: center;
+    color: grey;
+}
+
