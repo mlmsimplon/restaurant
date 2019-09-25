@@ -125,6 +125,39 @@ nav ul li a {
 #blocktext ul li {
     list-style: none;
 }
+
+#Form1 {
+    
+      
+        width: auto;
+        text-align: center;
+        padding-top: 1,5cm;
+        padding-bottom: 1,5cm;
+        margin-top: 4cm;
+        border-radius: 5px;
+}
+
+input {
+        background-color: beige;
+        padding-top: 2cm;
+        padding-bottom: 2cm;
+        border: 1px solid grey;
+        border-radius: 5px;
+        cursor: pointer;
+        color: grey;
+        font-weight: lighter;
+}
+    
+    input:hover {
+        background-color: beige; 
+    }
+    
+    textarea {
+        height: 50px;
+        border: 1px solid grey;
+        border-radius: 5px;
+    }
+
 #reseaux {
 background-image: url(https://cdn.pixabay.com/photo/2014/09/17/20/26/restaurant-449952_960_720.jpg);
 text-align: center;
@@ -143,11 +176,11 @@ border-radius: 5px;
 }
 
 #copyright {
-font-size: 11pt;
-   padding: 10px 10px;
-    margin-bottom: 5px;
-    margin-top: 2cm;
-    text-align: center;
-    color: grey;
-}
+    font-size: 11pt;
+       padding: 10px 10px;
+        margin-bottom: 5px;
+        margin-top: 2cm;
+        text-align: center;
+        color: grey;
+    }
 
