@@ -1,3 +1,6 @@
+<?php require "navBar.php"; ?>
+
+
 <?php
 try
 {
@@ -13,7 +16,7 @@ echo 'Erreur : '.$e->getMessage();
 }
 
 try {
-    echo "sdal";
+    echo "☺";
 $req = $bdd->prepare ('INSERT INTO utilisateurs (nom, prenom, email, telephone, messages)
                         VALUES (:nom, :prenom, :email, :telephone, :messages)');
 
@@ -26,7 +29,7 @@ $req = $bdd->prepare ('INSERT INTO utilisateurs (nom, prenom, email, telephone, 
         
 $req->execute();
 
-echo "<div id='Form1'>
+echo "<div id=Form1>
 Votre réservation a été envoyée </div>";
 
 } catch (PDOException $e) {

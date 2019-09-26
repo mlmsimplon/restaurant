@@ -14,7 +14,6 @@
         <b>HORAIRES OUVERTURE</b></p>
 
             <ul>
-                <li>Lundi - Midi 12H~14 Soir 19H~22H </li>
                 <li>Mardi - Midi 12H~14 Soir 19H~22H</li>
                 <li>Mecredi -Midi 12H~14H Soir 19H~22H</li>
                 <li>Jeudi - FERMETURE
@@ -35,28 +34,28 @@
                     FRANCE </li>
             </ul>
        
-        <div id="blocktext">
+        <div id="Form1">
         <p>
             <strong>RESERVATIONS</strong>
         </p>
             <form method="post" action="reservation.php">
-                <label for="name">Votre Nom :</label>
-                <input type="text" required id="name" name="name">
+                
+                <input type="text" required id="name" placeholder="Votre Nom" name="name">
+                
+                
+                <input type="text" placeholder="Votre Prénom" id="sname" name="sname">
                 <br>
-                <label for="sname"> Votre prénom :</label>
-                <input type="text" id="sname" name="sname">
-                <br>
-                <label for="mail">Votre e-mail :</label>
+               
                 <input type="email" required id="mail" name="email" placeholder="email@exemple.com">
-                <br>
-                <label for='tele'> Téléphone : </label>
+                
+                
                 <input id="tele" name="telephone" type="tel" pattern="[0-9]{10}" maxlength="10"
-                    placeholder="0600112244">
-                <label for="num">Nombre de personnes</label>
-                <input type="number" required id="num" name="num">
-                <label for="msg">Une précision ? :</label>
-                <textarea id="msg" name="msge"></textarea>
-                <input type="submit" value="Envoyer" class="Submit" />
+                    placeholder="Téléphone"><br>
+                
+                <input type="number" placeholder="Nombre de personnes" required id="num" name="num"><br>
+                
+                <textarea id="msg" placeholder="Une demande particulière?" name="msge"></textarea><br>
+                <input type="submit" value="Envoyer" class="Submit"/>
 
             </form>
 

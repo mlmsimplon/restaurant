@@ -1,7 +1,7 @@
 <?php require "navBar.php"; ?>
 
     <div id="menu-semaine" class="section">
-        <h1><span><u>Nos Menus</u></span></h1>
+        <h1><span><u>Chaque jour un Menu</u></span></h1>
         <img src= "https://cdn.pixabay.com/photo/2018/04/28/08/26/menu-3356826_960_720.jpg" alt="no image" class="arrondie">
     </div>
 

@@ -24,7 +24,7 @@
             <li><a href="index.php">Accueil</a>
                 <ul>
                     <li><a href="engagements.php">Nos engagements</a></li>
-                    <li><a href="patron.php">Mot du Patron</a></li>
+                    <li><a href="patron.php">Mot du Chef</a></li>
                 </ul>
             </li>
             <li><a href="#">Restaurant</a>

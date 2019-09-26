@@ -20,7 +20,7 @@ body {
     background-image: url(https://cdn.pixabay.com/photo/2014/09/17/20/26/restaurant-449952_960_720.jpg);
     font-size: 18pt;
     font-family: 'Courgette', cursive;
-    text-shadow: 1px 2px 2px grey;
+    text-shadow: 1px 2px 2px black;
     text-align: center;
     color: white;
     font-weight: lighter;
@@ -96,7 +96,7 @@ nav ul li a {
 #menu-semaine {
     font-size: 18px;
     text-align: center;
-    margin-top: 1cm;
+    margin-top: 1.5cm;
     color: grey;
     font-family: 'Courgette', cursive;
     text-decoration: none;
@@ -131,20 +131,21 @@ nav ul li a {
       
         width: auto;
         text-align: center;
-        padding-top: 1,5cm;
-        padding-bottom: 1,5cm;
-        margin-top: 4cm;
+        color: grey;
+        padding: 10px,10px;
+        margin-top: 1,5cm;
         border-radius: 5px;
 }
 
 input {
-        background-color: beige;
-        padding-top: 2cm;
-        padding-bottom: 2cm;
-        border: 1px solid grey;
-        border-radius: 5px;
+        background-color: white;
+       
+        height: 1cm;
+        padding : 5px, 5px;
+        border: 1px solid yellow;
+        border-radius: 2px;
         cursor: pointer;
-        color: grey;
+        color: black;
         font-weight: lighter;
 }
     
@@ -153,8 +154,8 @@ input {
     }
     
     textarea {
-        height: 50px;
-        border: 1px solid grey;
+        height: 1cm;
+        border: 1px solid yellow;
         border-radius: 5px;
     }
 

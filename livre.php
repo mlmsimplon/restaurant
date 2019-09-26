@@ -19,17 +19,13 @@
         -->
         <p>SIGNER LE LIVRE D'OR</p>
       
-    <form method="post" action="#">
-    <label for="name">Votre Nom :</label>
-                <input type="text" required id="name" name="name">
+        <form method="post" action="indexLivreOr.php">
+                <input type="text" required id="name" placeholder="Nom" name="name">
+            
+                <input type="text" id="sname" placeholder=" Prénom" name="sname">
                 <br>
-                <label for="sname"> Votre prénom :</label>
-                <input type="text" id="sname" name="sname">
-                <br>
-                <label for="mail">Votre e-mail :</label>
-                <input type="email" required id="mail" name="email" placeholder="email@exemple.com">
-                <br>
-        <textarea name="message" placeholder="message"></textarea>
+                
+        <textarea name="message" placeholder="Votre message"></textarea><br>
 
         <button type="submit">Envoyer </button>
     </form>

@@ -4,8 +4,8 @@
     
     <div id="menu-semaine" class="section">
 
-            <h1><span><u>Mister Cuistôt</u></span></h1>
-            <img src= "https://cdn.pixabay.com/photo/2014/05/28/01/37/obama-356133_960_720.jpg" alt="no image" class="arrondie">
+            <h1><span><u>Mister Cuistot</u></span></h1>
+            <img src= "https://cdn.pixabay.com/photo/2015/09/14/11/43/restaurant-939436_960_720.jpg" alt="no image" class="arrondie">
     </div>
 
     <div id="blocktext">
