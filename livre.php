@@ -22,10 +22,10 @@
         <form method="post" action="indexLivreOr.php">
                 <input type="text" required id="name" placeholder="Nom" name="name">
             
-                <input type="text" id="sname" placeholder=" Prénom" name="sname">
+                <input type="text" id="sname" placeholder="Prénom" name="sname">
                 <br>
                 
-        <textarea name="message" placeholder="Votre message"></textarea><br>
+        <textarea id="msg" placeholder="Votre commentaire" name="msge"></textarea><br>
 
         <button type="submit">Envoyer </button>
     </form>
@@ -40,6 +40,9 @@
 
             <a href="https://www.instagram.com/?hl=fr" target="_blank"><img class="logo"
                     src="logo/fbbb.png" alt="Facebook"></a>
+
+                    <a href="https://www.instagram.com/?hl=fr" target="_blank"><img class="logo"
+                    src="logo/Instagram_icon.png" alt="Instagram"></a>
 
         </p>
     </div>

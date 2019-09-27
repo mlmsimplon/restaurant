@@ -7,10 +7,11 @@
             <h1><span><u>Mister Cuistot</u></span></h1>
             <img src= "https://cdn.pixabay.com/photo/2015/09/14/11/43/restaurant-939436_960_720.jpg" alt="no image" class="arrondie">
     </div>
+    <br><br><br><br>
 
     <div id="blocktext">
             <p>
-                <b>Le Petit Mangé... Plus qu'un simple Restaurant!</b> <br>
+                <center><b>Le Petit Mangé... Plus qu'un simple Restaurant!</b></center> <br>
                 
                 Isdem diebus Apollinarisn haec cum ita tutius observentur, quidam vigore artuum  manibu <br>
                 haec cum ita tutius observentur, quidam vigore
@@ -28,6 +29,9 @@
 
             <a href="https://www.instagram.com/?hl=fr" target="_blank"><img class="logo"
                     src="logo/fbbb.png" alt="Facebook"></a>
+
+                    <a href="https://www.instagram.com/?hl=fr" target="_blank"><img class="logo"
+                    src="logo/Instagram_icon.png" alt="Instagram"></a>
 
         </p>
     </div>

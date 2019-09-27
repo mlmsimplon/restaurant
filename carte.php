@@ -4,18 +4,20 @@
         <h1><span><u>A la Carte</u></span></h1>
         <img src="https://cdn.pixabay.com/photo/2017/01/26/02/06/platter-2009590_960_720.jpg" alt="no image"
             class="arrondie">
+            <br><br><br>
     </div>
 
     <div id="blocktext">
         <p>
-            <b> ─ ENTREES ─ </b>
+            <center><b> ENTREES </b></center>
             <ul>
                 <li>Carpaccio de Boeuf</li>
                 <li>Terrine de la Boucherie</li>
                 <li>Gravlax de Saumon</li>
                 <li>Salade de Magret</li>
             </ul>
-            <b> ─ PLATS ─ </b>
+            <hr size=4 width=30% align=center>
+            <center><b> PLATS </b></center>
             <ul>
                 <li>Bavette d'Aloyau</li>
                 <li>Pavé de Coeur de Rumsteak</li>
@@ -24,7 +26,8 @@
                 <li>Confit de Canard du Sud Ouest</li>
                 <li>Faux Filet Grillé, sauce au poivre</li>
             </ul>
-            <b> ─ DESSERTS ─ </b>
+            <hr size=4 width=30% align=center>
+            <center><b> DESSERTS </b></center>
             <ul>
                 <li>Glaces (2 ou 3 boules)</li>
                 <li>Crème Brulée</li>
@@ -42,6 +45,9 @@
 
             <a href="https://www.instagram.com/?hl=fr" target="_blank"><img class="logo"
                     src="logo/fbbb.png" alt="Facebook"></a>
+
+                    <a href="https://www.instagram.com/?hl=fr" target="_blank"><img class="logo"
+                    src="logo/Instagram_icon.png" alt="Instagram"></a>
 
         </p>
     </div>

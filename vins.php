@@ -57,6 +57,9 @@
             <a href="https://www.instagram.com/?hl=fr" target="_blank"><img class="logo"
                     src="logo/fbbb.png" alt="Facebook"></a>
 
+                    <a href="https://www.instagram.com/?hl=fr" target="_blank"><img class="logo"
+                    src="logo/Instagram_icon.png" alt="Instagram"></a>
+
         </p>
     </div>
 

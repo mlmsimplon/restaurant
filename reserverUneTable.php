@@ -15,9 +15,9 @@
 
             <ul>
                 <li>Mardi - Midi 12H~14 Soir 19H~22H</li>
-                <li>Mecredi -Midi 12H~14H Soir 19H~22H</li>
-                <li>Jeudi - FERMETURE
-                <li>Vendredi - Midi 12H~14H Soir 19H~122H</li>
+                <li>Mecredi -Midi 12H~14H Soir 19H~22H</li> <br>
+                <li>Jeudi - FERMETURE <br>
+                <br><li>Vendredi - Midi 12H~14H Soir 19H~122H</li>
                 <li>Samedi - Midi 12H~14H Soir 19H~22H</li>
                 <li>Dimanche - Midi 12H~14H Soir 19H~22H</li>
             </ul>
@@ -54,7 +54,7 @@
                 
                 <input type="number" placeholder="Nombre de personnes" required id="num" name="num"><br>
                 
-                <textarea id="msg" placeholder="Une demande particulière?" name="msge"></textarea><br>
+                <textarea id="msg" placeholder="Date et Heure" name="msge"></textarea><br>
                 <input type="submit" value="Envoyer" class="Submit"/>
 
             </form>
@@ -69,6 +69,9 @@
 
             <a href="https://www.instagram.com/?hl=fr" target="_blank"><img class="logo"
                     src="logo/fbbb.png" alt="Facebook"></a>
+
+                    <a href="https://www.instagram.com/?hl=fr" target="_blank"><img class="logo"
+                    src="logo/Instagram_icon.png" alt="Instagram"></a>
 
         </p>
     </div>

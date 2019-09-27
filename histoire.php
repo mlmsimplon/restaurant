@@ -8,10 +8,11 @@
         <h1><span><u>Histoire et Traditions</u></span></h1>
         <img src="https://cdn.pixabay.com/photo/2017/01/31/20/48/aperitif-2027177_960_720.jpg" alt="no image"
             class="arrondie">
+            <br><br><br>
     </div>
     <div id="blocktext">
         <p>
-            <b>De Père en Fils depuis 1895</b> <br>
+            <center><b>De Père en Fils depuis 1895</b></center> <br>
             Isdem diebus Apollinarisn haec cum ita tutius observentur, quidam vigore artuum manibu <br>
             haec cum ita tutius observentur, quidam vigore <br>
             Sed tamen haec cum itaartuum inminuto rogati ad nuptias ubi aurum dextris tutius <br>

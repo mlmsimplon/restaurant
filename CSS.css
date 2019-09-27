@@ -10,9 +10,10 @@ body {
 }
 @media screen and (max-width: 800px)
 {
-    .section{
+    #blocktext {
         width: 100%;
         padding: 0%;
+
     }
 }
 
@@ -113,11 +114,11 @@ nav ul li a {
 
 
 #blocktext {
-    margin: auto;
-    padding-top: 1.5cm;
-    text-decoration: none;
-    text-align: center;
-    word-wrap: break-word;
+    
+    margin:auto;
+    width:auto;
+    text-align:center;
+    justify-content: center;
     font-family: 'Crimson Text', serif;
     font-size: 16pt;
     color:grey;

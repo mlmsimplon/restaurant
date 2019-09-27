@@ -7,19 +7,20 @@
 
         <h1><span><u>Notre philosophie </u></span></h1>
         <img src= "https://cdn.pixabay.com/photo/2017/09/16/19/21/salad-2756467_960_720.jpg" alt="no image" class="arrondie">
-</div>
+</div><br><br>
 <div id="blocktext">
         <p>
-            <b>Chaque jour un menu phare</b> <br>
+            <center><b>Chaque jour un menu phare</b></center> <br>
             
             Isdem diebus Apollinarisn haec cum ita tutius observentur <br>
              quidam vigore artuum  manibu <br>
+             <br><br>
         
-            <b>Du Producteur au Consommateur</b> <br>
+            <center><b>Du Producteur au Consommateur</b></center> <br>
             Sed tamen haec cum itaartuum inminuto rogati ad nuptias ubi <br>
-             aurum dextris  tutius <br>
+             aurum dextris  tutius <br><br><br>
             
-            <b>Le Bio</b> <br>
+            <center><b>Le Bio</b></center> <br>
             Epigonus quidem amictu n haec cum ita tutius observentur <br>
             quidam vigore manibutenus <br>
         
@@ -32,6 +33,9 @@
 
             <a href="https://www.instagram.com/?hl=fr" target="_blank"><img class="logo"
                     src="logo/fbbb.png" alt="Facebook"></a>
+
+                    <a href="https://www.instagram.com/?hl=fr" target="_blank"><img class="logo"
+                    src="logo/Instagram_icon.png" alt="Instagram"></a>
 
         </p>
     </div>
